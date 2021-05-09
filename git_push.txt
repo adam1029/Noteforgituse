@@ -1,0 +1,5 @@
+
+git add <FILE>  //tracked modified file, add to stage area
+git commit      //commit to local area
+git push origin local_branch:remote_branch
+

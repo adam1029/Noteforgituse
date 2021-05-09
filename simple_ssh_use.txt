@@ -1,0 +1,23 @@
+//cp ssh key to server
+scp .ssh/id_rsa.pub user_name@host_name:address/.ssh/
+scp .ssh/id_rsa  user_name@host_name:address/.ssh/
+
+//scp from server to local
+scp -r user_name@host_name:address /home/adam
+
+//same container id to exec bash
+docker exec -it 14ee bash
+
+//caculate file number
+find ./ -type f | wc -l
+
+
+//ssh to see picture
+ssh -X user_name@host_name
+
+//mount disk in WSL
+mkdir /mnt/d
+sudo mount -t drvfs "D:" /mnt/d
+sudo umount /mnt/d
+
+ 

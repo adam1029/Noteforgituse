@@ -1,0 +1,11 @@
+
+git fetch   //update and refresh local branch with remote branch
+git branch -va  //display all branch, in order to check update or not
+git log     //check commmit log
+git stash     //stash push current work from staging area before transfer to other work or pull merge
+git stash list    //check stash stack status
+git status    
+git pull      //pull from remote branch
+git branch -va    //check branch version
+git stash pop        //merge 
+
