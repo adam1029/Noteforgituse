@@ -3,3 +3,8 @@ git add <FILE>  //tracked modified file, add to stage area
 git commit      //commit to local area
 git push origin local_branch:remote_branch
 
+
+//rebase use
+git rebase --onto new_base merge_branch_before_base
+git rebase --onto origin/rvv merge_branch_before_base
+
